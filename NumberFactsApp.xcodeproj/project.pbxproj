@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3425532C26C04489004BAE1F /* M5L14_ChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3425532B26C04489004BAE1F /* M5L14_ChallengeApp.swift */; };
+		3425532C26C04489004BAE1F /* NumberFactsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3425532B26C04489004BAE1F /* NumberFactsApp.swift */; };
 		3425532E26C0448A004BAE1F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3425532D26C0448A004BAE1F /* ContentView.swift */; };
 		3425533026C0448C004BAE1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3425532F26C0448C004BAE1F /* Assets.xcassets */; };
 		3425533326C0448C004BAE1F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3425533226C0448C004BAE1F /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3425532826C04489004BAE1F /* M5L14_Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = M5L14_Challenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3425532B26C04489004BAE1F /* M5L14_ChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = M5L14_ChallengeApp.swift; sourceTree = "<group>"; };
+		3425532826C04489004BAE1F /* NumberFactsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NumberFactsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3425532B26C04489004BAE1F /* NumberFactsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberFactsApp.swift; sourceTree = "<group>"; };
 		3425532D26C0448A004BAE1F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3425532F26C0448C004BAE1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3425533226C0448C004BAE1F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -36,7 +36,7 @@
 		3425531F26C04489004BAE1F = {
 			isa = PBXGroup;
 			children = (
-				3425532A26C04489004BAE1F /* M5L14_Challenge */,
+				3425532A26C04489004BAE1F /* NumberFactsApp */,
 				3425532926C04489004BAE1F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,21 +44,21 @@
 		3425532926C04489004BAE1F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3425532826C04489004BAE1F /* M5L14_Challenge.app */,
+				3425532826C04489004BAE1F /* NumberFactsApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3425532A26C04489004BAE1F /* M5L14_Challenge */ = {
+		3425532A26C04489004BAE1F /* NumberFactsApp */ = {
 			isa = PBXGroup;
 			children = (
-				3425532B26C04489004BAE1F /* M5L14_ChallengeApp.swift */,
+				3425532B26C04489004BAE1F /* NumberFactsApp.swift */,
 				3425532D26C0448A004BAE1F /* ContentView.swift */,
 				3425532F26C0448C004BAE1F /* Assets.xcassets */,
 				3425533426C0448C004BAE1F /* Info.plist */,
 				3425533126C0448C004BAE1F /* Preview Content */,
 			);
-			path = M5L14_Challenge;
+			path = NumberFactsApp;
 			sourceTree = "<group>";
 		};
 		3425533126C0448C004BAE1F /* Preview Content */ = {
@@ -72,9 +72,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3425532726C04489004BAE1F /* M5L14_Challenge */ = {
+		3425532726C04489004BAE1F /* NumberFactsApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3425533726C0448C004BAE1F /* Build configuration list for PBXNativeTarget "M5L14_Challenge" */;
+			buildConfigurationList = 3425533726C0448C004BAE1F /* Build configuration list for PBXNativeTarget "NumberFactsApp" */;
 			buildPhases = (
 				3425532426C04489004BAE1F /* Sources */,
 				3425532526C04489004BAE1F /* Frameworks */,
@@ -84,9 +84,9 @@
 			);
 			dependencies = (
 			);
-			name = M5L14_Challenge;
+			name = NumberFactsApp;
 			productName = M5L14_Challenge;
-			productReference = 3425532826C04489004BAE1F /* M5L14_Challenge.app */;
+			productReference = 3425532826C04489004BAE1F /* NumberFactsApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -103,7 +103,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3425532326C04489004BAE1F /* Build configuration list for PBXProject "M5L14_Challenge" */;
+			buildConfigurationList = 3425532326C04489004BAE1F /* Build configuration list for PBXProject "NumberFactsApp" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -116,7 +116,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3425532726C04489004BAE1F /* M5L14_Challenge */,
+				3425532726C04489004BAE1F /* NumberFactsApp */,
 			);
 		};
 /* End PBXProject section */
@@ -139,7 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3425532E26C0448A004BAE1F /* ContentView.swift in Sources */,
-				3425532C26C04489004BAE1F /* M5L14_ChallengeApp.swift in Sources */,
+				3425532C26C04489004BAE1F /* NumberFactsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,16 +268,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"M5L14_Challenge/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"NumberFactsApp/Preview Content\"";
 				DEVELOPMENT_TEAM = 3RD7S6RWS8;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = M5L14_Challenge/Info.plist;
+				INFOPLIST_FILE = NumberFactsApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Hurricane-Software.M5L14-Challenge";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hurricane-Software.NumberFactsApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -290,16 +290,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"M5L14_Challenge/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"NumberFactsApp/Preview Content\"";
 				DEVELOPMENT_TEAM = 3RD7S6RWS8;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = M5L14_Challenge/Info.plist;
+				INFOPLIST_FILE = NumberFactsApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Hurricane-Software.M5L14-Challenge";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hurricane-Software.NumberFactsApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -309,7 +309,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3425532326C04489004BAE1F /* Build configuration list for PBXProject "M5L14_Challenge" */ = {
+		3425532326C04489004BAE1F /* Build configuration list for PBXProject "NumberFactsApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3425533526C0448C004BAE1F /* Debug */,
@@ -318,7 +318,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3425533726C0448C004BAE1F /* Build configuration list for PBXNativeTarget "M5L14_Challenge" */ = {
+		3425533726C0448C004BAE1F /* Build configuration list for PBXNativeTarget "NumberFactsApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3425533826C0448C004BAE1F /* Debug */,

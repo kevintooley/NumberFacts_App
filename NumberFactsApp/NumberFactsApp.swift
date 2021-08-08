@@ -1,6 +1,6 @@
 //
-//  M5L14_ChallengeApp.swift
-//  M5L14_Challenge
+//  NumberFactsApp.swift
+//  NumberFacts
 //
 //  Created by Kevin Tooley on 8/8/21.
 //
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct M5L14_ChallengeApp: App {
+struct NumberFactsApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
